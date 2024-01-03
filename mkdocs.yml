@@ -1,0 +1,56 @@
+site_name: ShowcaseMe Templates
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: light blue
+
+nav:
+  - Getting Stared: "index.md"
+  - Sidebar: "page2.md"
+  - Resume: "page3.md"
+  - Blog: "page4.md"
+  - Contact: "page5.md"
+  - Email: "page6.md"
+  - CSS: "page7.md"
+  - Javascript: "page8.md"
+  - Help: "help.md"
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/ShowcaseMePortfolioist"  target="_blank" rel="noopener">ShowcaseMe Portfolioist</a>
